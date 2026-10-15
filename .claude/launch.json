@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "bite-list", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "--port", "5173", "--strictPort"], "port": 5173 },
+    { "name": "bite-list-lan", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "--host", "--port", "5173", "--strictPort"], "port": 5173 },
+    { "name": "pawgress", "runtimeExecutable": "npm", "runtimeArgs": ["--prefix", "/Users/meredithmeller/Vibe Coding DesignLab Course/Dog Training App", "run", "dev", "--", "--port", "3000"], "port": 3000 }
+  ]
+}
